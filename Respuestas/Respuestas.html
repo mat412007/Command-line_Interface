@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Respuestas.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respuestas de CLI</title>
+</head>
+<body>
+    <h1><u>Command-line Interface.</u></h1>
+    <h2><a href="https://la35.net/assets/files/practicas/proyecto-p1.pdf" target="_blank">Guía de ejercicios.</a></h2>
+    <br>
+    <ol>
+        <li>Indicar qué significan los acrónimos GUI, CLI, y TUI.</li>
+        <p><b>GUI =</b> Graphical User Interface. <br><b>CLI =</b> Command Line Interface. <br><b>TUI =</b> Text User Interface.</p>
+        <br>
+        <li>¿Cuál es la diferencia entre un shell y un emulador de terminal?</li>
+        <p>La diferencia es que un shell es la interfaz con el sistema operativo, incorporan el lenguaje de programación para controlar procesos y archivos. <br>Un emulador de terminal es una app de software que permiten usar ese lenguaje y mostrar resultados en una ventana local.</p>
+        <br>
+        <li>Dar tres diferencias entre una GUI y una CLI.</li>
+        <p>Los usuarios CLI escriben comandos manuales, los GUI usan visuales como botones e íconos. GUI se usa con teclado y mouse, requiere poca experiencia, es poco preciso, lento, y pesado, pero puede personalizarse. <br>El CLI se usa solo con teclado, y requiere práctica y experiencia, pero es muy preciso, rápido, y ligero, pero no puede personalizarse.</p>
+        <br>
+        <li>¿Qué es el prompt en la CLI? ¿Cuáles son las partes del prompt típico de Bash?</li>
+        <p>Un prompt es una interfaz de línea de comandos(CLI) que le permite al usuario interactuar con el sistema mediante comandos. Las partes del prompt típico en Bash son: <b>username, hostname, directorio, separador, cursor.</b></p>
+        <br>
+        <li>¿En qué sentido el sistema de archivos de Windows y Linux son similares y en qué sentido son diferentes?</li>
+        <p>Son similares en que ambos: <br>
+        <ul>
+            <li>Manejan múltiples usuarios.</li>
+            <li>Ejecutan múltiples acciones.</li>
+            <li>Son compatibles con el manejo de redes.</li>
+            <li>Permiten el desarrollo de aplicaciones.</li>
+            <li>Requieren más recursos de hardware.</li>
+            <li>Utilizan ventanas, escritorios y papelera de reciclaje.</li>
+            <li>Pueden tener varias cuentas.</li>
+        </ul>
+        <br>
+        Se diferencian en que: <br>
+        <ul>
+            <li>Linux es de código abierto y cada usuario tiene sus archivos.</li>
+            <li>Windows es de código cerrado y fue creado por Microsoft para uso personal y comercial.</li>
+        </ul>
+        </p>
+        <br>
+        <li>¿Qué es un archivo texto y en qué se diferencia de un archivo binario?</li>
+        <p>Un archivo de texto es un registro de sistema en el que se almacenan datos de documentos de texto, y nada más, por eso sus nombres siempre terminan con TXT. Su diferencia con un archivo binario es que aunque ambos fueron escritos por el usuario, el binario es leído e interpretado por la computadora también. Le dicen al sistema qué hacer y en ellos se almacenan mandatos y programas.</p>
+        <br>
+        <li>¿Qué significa un punto delante del nombre de un archivo?</li>
+        <p>Significa que el archivo está oculto y <b>ls</b> no lo mostrará, a menos que insertes <b>ls -a</b>.</p>
+        <br>
+        <li>¿Cuáles son las 4 clases de comandos que podemos encontrar en Linux?</li>
+        <p><ul>
+            <li><b>Un programa ejecutable:</b> dentro de esta categoría, los programas están escritos en lenguajes de script, y pueden ser binarios, escriots en C y C++.</li>
+            <li><b>Un comando contenido en el propio shell:</b> bash soporta un gran número de comandos, llamados shell builtins.</li>
+            <li><b>Una función del shell:</b> pequeños scripts de shell incorporados en el entorno.</li>
+            <li><b>Un Alias:</b> comandos que definimos por nosotros mismos.</li>
+        </ul></p>
+        <br>
+        <li>¿Cuáles son los 3 streams estándar en Linux?</li>
+        <p><b>Stdin</b> = Standard Input. <br><b>Stdout</b> = Standard Output. <br><b>Stderr</b> = Standard Error.</p>
+        <br>
+        <li>El equivalente a <b>C:\Usuarios\Alumno</b> en Linux es:</li>
+        <p><b>/home/alumno</b></p>
+        <br>
+        <li>En el comando cd .., el .. hace referencia al directoio:</li>
+        <p><b>Padre</b></p>
+        <br>
+        <li>¿Qué comando no pertenece a las tareas típicas de un explorador de archivos?</li>
+        <p><b>echo</b></p>
+        <br>
+        <li>¿Qué tipo de ruta es /home/alumno?</li>
+        <p><b>Absoluta</b></p>
+        <br>
+        <li>¿Qué comando se utiliza para buscar patrones de texto en archivos?</li>
+        <p><b>grep</b></p>
+        <br>
+        <li>¿Cuál es la diferencia entre los operadores > y >> en Bash?</li>
+        <p><b>> sobreescribe el contenido del archivo del destino, mientras que >> agrega contenido al final del archivo del destino.</b></p>
+        <br>
+        <li>¿Cuál es la función de la variable de entorno $PATH?</li>
+        <p><b>Define la ruta de búsqueda de comandos ejecutables.</b></p>
+        <br>
+        <li>¿Qué comando se utiliza para crear un nuevo directorio?</li>
+        <p><b>mkdir</b></p>
+        <br>
+        <li>¿Qué comando se utiliza para listar el contenido de un directorio?</li>
+        <p><b>ls</b></p>
+        <br>
+        <li>¿Qué tipo de ruta es ./assets/img?</li>
+        <p><b>Relativa</b></p>
+        <br>
+        <li>¿Qué comando se utiliza para mostrar el contenido de un archivo en la terminal de Linux?</li>
+        <p><b>cat</b></p>
+        <br>
+        <li>¿Cuál es la función del operador de redirección >?</li>
+        <p><b>Redirecciona la sálida estándar a un archivo.</b></p>
+        <br>
+        <li>¿Cuál es la forma correcta de reemplazar una línea entera en Vim?</li>
+        <p><b>O</b></p>
+        <br>
+        <li>¿Cuál es la forma correcta de redirigir la salida estándar y salida de error estándar de un comando hacia diferentes archivos en Bash?</li>
+        <p><b>cmd > archivo_salida 2> archivo_error</b></p>
+        <br>
+        <li>¿Cuál es la manera correcta de buscar y reemplazar todas las ocurrencias de una palabra por otra en Vim?</li>
+        <p><b>:%s/buscar/reemplazar/g</b></p>
+        <br>
+        <li>Si tengo un archivo de texto <b>alumnos.csv</b> donde cada fila es un apellido seguido de una nota como en garcia, 8. <br>¿Qué pipe se utiliza para mostrar el contenido <b>alumnos.csv</b> ordenado por orden alfabético y numerando las líneas?</li>
+        <p><b>cat alumnos.csv | sort | nl</b></p>
+        <br>
+        <li>¿Qué comando no pertenece a las tareas típicas de un explorador de archivos?</li>
+        <p><b>less</b></p>
+        <br>
+        <li>¿Qué comando se utiliza para generar un número aleatorio entre 0 y algún entero <b>n</b> en Bash?</li>
+        <p><b>echo $(($RANDOM % n))</b></p>
+        <br>
+        <li>¿Qué redirige la salida estándar de un comando hacia un archivo llamado <b>output.txt</b>?</li>
+        <p><b>> outout.txt</b></p>
+        <br>
+        <li>¿Qué comando muestra los contenidos de un directoio dir en formato largo, incluyendo archivos ocultos?</li>
+        <p><b>ls -al dir</b></p>
+        <br>
+        <li>¿Qué comando se utiliza para crear un archivo <b>.gitignore</b> con una única línea que diga node_modules en la terminal de Linux?</li>
+        <p><b>echo node_modules > .gitignore</b></p>
+        <br>
+        <li>¿Cómo puedo comprobar rápidamente si estoy conectado a Internet desde la terminal?</li>
+        <p><b>ping -c 4 www.google.com</b></p>
+        <br>
+        <li>¿Cuál es la variable de entorno que almacena el <b>prompt string</b> en Bash?</li>
+        <p><b>$PS1</b></p>
+        <br>
+        <li>¿Qué comando no me lleva al home?</li>
+        <p><b>cd -</b></p>
+        <br>
+        <li>¿Con qué teclas podemos borrar hasta el final de línea en Vim?</li>
+        <p><b>dd</b></p>
+        <br>
+        <li>Indicar verdadero o falso.</li>
+        <p>
+            <ul>
+                <li>Los comandos pueden tener como máximo un argumento. <b>F</b></li>
+                <li>Los archivos cuyo nombre empiecen con un punto son ocultos para Windows. <b>V</b></li>
+                <li>Los archivos creados con touch comienzan vacios. <b>V</b> </li>
+                <li>Para enviar stdout de un programa a stdin de otro ponemos un >. <b>V</b></li>
+                <li>En Windows como en Linux hay un único árbol de directorios. <b>F</b></li>
+                <li>El comando rm [abc]* elimina todos los archivos en el directorio que empiecen con a, b, o c. <b>V</b></li>
+                <li>En Vim podemos usar Ctrl + v para pegar texto. <b>F</b></li>
+                <li>El comando chmod sirve para cambiar los permisos de archivos y directorios. <b>V</b></li>
+                <li>El comando tail muestra las primeras líneas de un archivo. <b>F</b></li>
+                <li>En Linux index.html e INDEX.HTML son el mismo archivo. <b>F</b></li>
+                <li>El comando cal es una calculadora. <b>F</b></li>
+                <li>Tanto mv como rename sirven para renombrar archivos. <b>F</b></li>
+                <li>Los comandos pueden tener opciones, indicadas con - o --. <b>V</b></li>
+                <li>En la terminal podemos Ctrl + c para copiar. <b>F</b></li>
+                <li>pacman es el gestor de paquetes de las distribuciones basadas en Arch Linux. <b>V</b></li>
+                <li>El comando cd - cambia el directorio al home. <b>F</b></li>
+                <li>En Linux las opciones de los comandos se suelen indicar usando /. <b>F</b></li>
+                <li>El atajo de teclado Ctrl + a mueve el curso al final de la línea. <b>F</b></li>
+                <li>El comodín * significa cero a más caracteres. <b>V</b></li>
+                <li>En Vim, dd elimina(y corta) la línea donde está el cursor. <b>V</b></li>
+                <li>El comando rm archvio?.txt elimina todos los archivos de texto que comiencen con archivo y terminan con algún número. <b>F</b></li>
+            </ul>
+        </p>
+        <br>
+        <li>Llenar los espacios en blanco.</li>
+        <ul>
+            <li>El comando wq: se usa para <b>salir</b> y <b>guardar</b> en <b>Vim</b>.</li>
+            <li>La combinación Ctrl + c envía la señal de <b>intervención</b> al <b>comando</b> que se está ejecutando.</li>
+            <li>Usar <b>poweroff</b> en la terminal para apagar la computadora.</li>
+            <li><b>rm</b> sirve para eliminar archivos y directorios.</li>
+            <li>La combinación Ctrl + d <b>termina</b> la <b>sesión</b> de la terminal.</li>
+            <li>Podemos usar Ctrl + + para <b>aumentar</b> la letra de la terminal y Ctrl + - para <b>disminuirla.</b></li>
+            <li>En la mayoría de las distribuciones de Linux, Ctrl + Alt + t abre una <b>terminal</b>.</li>
+            <li>El atajo de teclado Ctrl + l es equivalente al comando <b>clear</b>.</li>
+            <li>En el editor Nano Ctrl + o se usa para <b>guardar</b> y Ctrl + x para <b>salir.</b></li>
+            <li>En Vim, con i entramos en modo <b>insertar</b>.</li>
+            <li>En Vim, con Esc volvemos al modo <b>normal</b>.</li>
+            <li>Para abir una <b>línea</b> en Vim podemos usar o, o 0.</li>
+            <li>El operador | conocido como <b>pipe</b> sirve para redireccionar <b>stdout</b> de un comándo a <b>stdin</b> de otro.</li>
+            <li>El comando cat file.txt | grep linux <b>muestra</b> las <b>líneas</b> del archivo file.txt que contienen la palabra <b>linux</b>.</li>
+            <li><b>cp</b> es el comando en Linux para copiar archivos y directorios.</li>
+            <li>mkdir app crea un <b>directorio</b> con nombre <b>app</b>.</li>
+            <li>rm *.bak <b>elimina</b> todos los archivos que <b>terminan</b> en .bak.</li>
+            <li>Para listar archivos y directorios podemos usar <b>ls</b>.</li>
+            <li><b>mv</b> sirve para renombrar archivos y directorios.</li>
+            <li>Para cambiar de directorio podemos usar <b>cd</b>.</li>
+            <li>rmdir proyecto elimina el <b>directorio</b> con nombre <b>proyecto</b>. Pero solo si está <b>vacio</b>.</li>
+            <li>cp * ~ copia <b>todos</b> los elementos del directorio actual al <b>home</b>.</li>
+            <li><b>mv</b> es el comando en Linux para mover archivos y directorios.</li>
+        </ul>
+        <br>
+        <li>Para cada ruta indicar si se trata de una ruta absoluta o relativa.</li>
+        <ul>
+            <li>../../../   <b>Relativa</b></li>
+            <li>/usr/bin    <b>Absoluta</b></li>
+            <li>..  <b>Relativa</b></li>
+            <li>/home/alumno    <b>Absoluta</b></li>
+            <li>/root   <b>Relativa</b></li>
+            <li>./components/Navbar <b>Relativa</b></li>
+            <li>/var/log    <b>Absoluta</b></li>
+            <li>../models   <b>Relativa</b></li>
+            <li>img/banner.png  <b>Relativa</b></li>
+            <li>/lost+found   <b>Absoluta</b></li>
+            <li>~   <b>Relativa</b></li>
+            <li>/usr/bin/gcc    <b>Absoluta</b></li>
+            <li>../Downloads    <b>Relativa</b></li>
+            <li>/usr/share  <b>Absoluta</b></li>
+            <li>/home/alumno/app/src    <b>Absoluta</b></li>
+            <li>/var/www    <b>Absoluta</b></li>
+            <li>./  <b>Relativa</b></li>
+            <li>js/main.js  <b>Relativa</b></li>
+        </ul>
+        <br>
+        <li>Averiguar las afirmaciones.</li>
+        <ul>
+            <li>En Windows se llaman carpetas = <b>Directorios</b></li>
+            <li>Van después del comando y antes de los argumentos = <b>Opciones</b></li>
+            <li>Comando para eliminar carpetas = <b>rmdir</b></li>
+            <li>Comando para obtener ayuda = <b>man</b></li>
+            <li>Un tipo de ruta = <b>Absoluta</b></li>
+            <li>Para ejecutar un comando con privilegios de administrador = <b>sudo</b></li>
+            <li>Cliente HTTP = <b>curl</b></li>
+            <li>El sistema de archivos está organizado en forma de = <b>árbol</b></li>
+            <li>Concatenar archivos = <b>cat</b></li>
+        </ul>
+        <br>
+        <li>Dar los comandos para crear un archivo llamado groot.txt. Escribir dentro del mismo el texto "I am Groot", sin abrir un editor de texto. Mostrar los contenidos del archivo.</li>
+        <p><b>
+            touch groot.txt <br>
+            echo I am Groot > groot.txt <br>
+            cat groot.txt 
+        </b></p>
+        <br>
+        <li>Dar los comandos para crear un archivo llamado "proyecto". Crear dentro del mismo el texto un archivo llamado "README.md".</li>
+        <p><b>
+            mkdir proyecto <br>
+            cd proyecto <br>
+            touch README.md
+        </b></p>
+        <br>
+        <li>Tengo dos usuarios: "alumno" y "profesor". Tengo que copiar un directorio llamado "apuntes" en el home del usuario "profesor" al home de "alumno". Dar un comando que realice la copia.</li>
+        <p><b>cp apuntes/home/alumno</b></p>
+        <br>
+        <li>Escribir un script de Bash que le dé la bienvenida al usuario mostrando el estado del tiempo y la fecha y la hora.</li>
+        <p><b>
+            vim 44.sh <br>
+            #!../bin/bash <br>
+            echo Hola $USER, como estás? <br>
+            echo Son las $(date + %T) <br>
+            curl'wttr.in/?0'. <br>
+            chmod + x 44.sh <br>
+            ./44.sh
+        </b></p>
+        <br>
+        <li>Cuando termino de escribir un script de Bash, ¿qué tengo que hacer para ejecutarlo?</li>
+        <p><b>
+            chmod + x <!--para dar permiso--> <br>
+            ./nombre <!--para ejecutarlo-->
+        </b></p>
+        <br>
+        <li>Tengo dos directorios en el home: dirA y dirB. Dentro de dirA hay 3 archivos: fileA, fileB, fileC, el otro directorio está vacío. Copiarlos contenidos de dirA a dirB.</li>
+        <p><b>cp dirA/* dirB</b></p>
+        <br>
+        <li>Crear 3 directorios llamados models, routes y views.</li>
+        <p><b>mkdir models routes views</b></p>
+        <br>
+        <li>Dar un comando para eliminar todos los contenidos del home del usuario.</li>
+        <p><b>rm -r *, o, cd && rm -r *</b></p>
+        <br>
+        <li>Crear un alias llamado clima para ejecutar curl 'wttr.in/?0'.</li>
+        <p><b>alias clima = "curl 'wttr.in/?0'"</b></p>
+        <br>
+    </ol>
+</body>
+</html>
